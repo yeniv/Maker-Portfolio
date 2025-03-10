@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
+Global Reset
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: -apple-system, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.5;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.01rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.main-content {
+  flex: 1;
 }
 
-@keyframes App-logo-spin {
+/* Typography */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 400;
+  color: #999;
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+  font-size: inherit;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  color: #a3a3a3;
+  transition: ease-in 0.2s;
+    
+  &:hover {
+    color: #171717;
+    transition: ease-out 0.2s;
+  }
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* Animations */
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
+    transform: translateY(20px);
   }
+
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateY(0);
   }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  will-change: opacity, transform;
+}
+
+/* Performance optimizations */
+.hardware-accelerated {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* Basic Responsive Rules */
+@media (max-width: 1024px) {
+  /* Tablet styles */
+}
+
+@media (max-width: 768px) {
+  /* Mobile styles */
 }

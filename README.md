@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# Tristan Viney Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean, minimal personal portfolio website built with React.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Responsive masonry layout for projects display
+- Project filtering by category
+- Interactive navigation with hover effects
+- Page transitions and animations
+- Project detail pages with custom routes
+- Contact form with validation
+- Clean and minimal design
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later)
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository:
+   ```bash
+   git clone <repository-url>
+   cd tristan-viney-portfolio
+   ```
 
-### `npm run build`
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Building for Production
 
-### `npm run eject`
+To create a production build:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm run build
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The build files will be created in the `build` directory, ready to deploy.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+src/
+├── components/      # Reusable components
+│   ├── Header.js    # Main navigation component
+│   └── ProjectCard.js  # Project card component
+├── pages/           # Page components
+│   ├── ProjectsPage.js   # Main projects listing page
+│   ├── ProjectDetail.js  # Individual project page
+│   ├── About.js      # About page
+│   └── Contact.js    # Contact page
+├── App.js           # Main app component
+├── index.js         # Entry point
+└── App.css          # Global styles
+```
 
-## Learn More
+## Customization
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Adding Your Projects
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Edit the `projectsData` array in `src/pages/ProjectsPage.js` to add your own projects. Each project should have the following structure:
 
-### Code Splitting
+```javascript
+{
+  id: 1,                      // Unique identifier
+  title: 'Project Title',     // Project title
+  category: 'web-apps',       // Category (web-apps, ads, portraits, films)
+  image: '/images/project.jpg', // Project image path
+  description: 'Short description' // Brief description
+}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+For more detailed project information, edit the `projectsData` array in `src/pages/ProjectDetail.js`.
 
-### Analyzing the Bundle Size
+### Customizing Styles
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Global styles are defined in `src/App.css`. Component-specific styles are in their respective CSS files.
 
-### Making a Progressive Web App
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- React
+- React Router
+- React Masonry CSS
+- Intersection Observer API for animations
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
