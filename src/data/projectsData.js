@@ -2,6 +2,7 @@ export const projectsData = [
   {
     id: 'WAL-LE',
     title: 'WAL-LE',
+    featured: true,
     category: 'films',
     thumbnail: '/images/WAL-LE/WAL-LE-thumbnail.jpg',
     description: 'An 11-minute documentary following a team of engineers as they build an amphibious vehicle prototype for the Canadian Armed Forces.',
@@ -55,6 +56,7 @@ export const projectsData = [
   {
     id: 'anything-helps',
     title: 'Anything Helps',
+    featured: true,
     category: 'films',
     thumbnail: '/images/Anything-Helps/Anything-Helps-thumbnail.jpg',
     description: 'A homeless man stumbles across a suicide attempt. But instead of talking her down, he has other ideas.',
@@ -91,6 +93,7 @@ export const projectsData = [
   {
     id: 'what-is-engineering-design-lab',
     title: 'What is Engineering Design Lab?',
+    featured: true,
     category: 'films',
     thumbnail: '/images/What-is-Engineering-Design-Lab/What-is-Engineering-Design-Lab-thumbnail.jpg',
     description: 'An 11-minute documentary following a team of engineers as they build an amphibious vehicle prototype for the Canadian Armed Forces.',
@@ -136,6 +139,7 @@ export const projectsData = [
   {
     id: 'stitched-together',
     title: 'Stitched Together',
+    featured: true,
     category: 'ads',
     thumbnail: '/images/Stitched-Together/Stitched-Together-thumbnail.jpg',
     mainImage: '/images/Stitched-Together/Stitched-Together-main-image.jpg',
@@ -149,7 +153,7 @@ export const projectsData = [
         <p>Our sleep-deprived solution was simple, symbolic and shareable — a school shirt made from petition signatures.</p>
       </div>,
     toolkit: ['Copywriter'],
-    client: 'Save the Ch',
+    client: 'Save the Children',
     imageGallery: [
       '/images/Stitched-Together/Stitched-Together-web-gallery-2.jpg',
       '/images/Stitched-Together/Stitched-Together-web-gallery-3.jpg',
@@ -166,6 +170,7 @@ export const projectsData = [
   {
     id: 'change-your-perspective',
     title: 'Change your perspective',
+    featured: true,
     category: 'ads',
     thumbnail: '/images/Change-your-perspective/Change-your-perspective-thumbnail.jpg',
     description: '',
@@ -184,11 +189,11 @@ export const projectsData = [
     youTubeVideo: 'xBrbWiPU-Eg',
     toolkit: ['Copywriter', 'Filmmaker'],
     client: 'Barnardos Australia',
-    imageGallery: []
   },
   {
     id: 'HCG',
     title: 'KFC Home Cricket Ground',
+    featured: true,
     category: 'ads',
     thumbnail: '/images/KFC-HCG/KFC-HCG-thumbnail.jpg',
     description: '',
@@ -231,6 +236,7 @@ export const projectsData = [
   {
     id: 'shut-up-and-take-my-money',
     title: 'Shut up and take my money',
+    featured: true,
     category: 'ads',
     thumbnail: '/images/KFC-Chip-Slider/KFC-Chip-Slider-thumbnail.jpg',
     description: '',
@@ -239,12 +245,12 @@ export const projectsData = [
         <p>There's deals and then there's shut-up-and-take-my-money deals.</p>
         <h3>Chip slider (above)</h3>
         <p>When a flock of students scuff the freshly-buffed floors, a Janitor gets even in the best way imaginable – by eating KFC's $2.50 Chips & Gravy in front of them. Obviously.</p> 
-        <h3>Soccer Dad</h3>
+        <h3>Additional TV - Soccer Dad</h3>
         <p>After driving a gaggle of screaming girls to soccer, all Dad wants is a little peace and quiet. Oh, and a bucket of KFC. Is that too much to ask?</p>
         <div class="video-container">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/hd1cX4PkG5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <h3>The Narrator</h3>
+        <h3>Radio executions - The Narrator</h3>
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/329312908&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </div>,
     youTubeVideo: '3dQPZqtOcl0',
@@ -254,6 +260,7 @@ export const projectsData = [
   {
     id: 'bizcover-turn-off',
     title: 'Turn Off',
+    featured: true,
     category: 'ads',
     thumbnail: '/images/Bizcover-Turn-Off/Bizcover-toenails-thumbnail.jpg',
     description: '',
@@ -278,6 +285,7 @@ export const projectsData = [
   {
     id: 'kfc-sounds-like',
     title: 'Sounds Like',
+    featured: true,
     category: 'ads',
     thumbnail: '/images/KFC-Sounds-Like/KFC-Sounds-Like-thumbnail.jpg',
     description: '',
@@ -293,21 +301,22 @@ export const projectsData = [
   {
     id: 'chocolates-by-tomes',
     title: 'Gifts for any occassion',
+    featured: true,
     category: 'ads',
     thumbnail: '/images/Chocolates-by-Tomes/Chocolates-by-Tomes-thumbnail.jpg',
     description: '',
     fullDescription:
       <div>
-        <p>Chocolates by Tomes sells gifts of all sizes.</p>
-        <p>Perfect for a world where the smallest detail makes the biggest difference in generosity.</p>
+        <p>Chocolates by Tomes sells gifts of all sizes. Perfect for a world where the smallest detail makes the biggest difference in generosity.</p>
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1348627768&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </div>,
-    toolkit: ['Copywriter'],
+    toolkit: ['Creative Director', 'Copywriter', 'Voice Director', 'Casting'],
     client: 'Chocolate by Tomes'
   },
   {
     id: 'amazon-alexa',
     title: 'Unbelievably easy',
+    featured: true,
     category: 'ads',
     thumbnail: '/images/Amazon-Alexa/Amazon-Alexa-thumbnail.jpg',
     description: '',
@@ -325,6 +334,7 @@ export const projectsData = [
   {
     id: 'the-breakup',
     title: 'The Breakup',
+    featured: true,
     category: 'ads',
     thumbnail: '/images/RadioApp-Breakup/RadioApp-Breakup-thumbnail.jpg',
     description: '',

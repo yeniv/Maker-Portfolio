@@ -11,8 +11,9 @@ const ProjectsPage = () => {
 
   useEffect(() => {
     // Filter projects based on the selected category
+    // Only show featured projects if the category is all 
     if (!category || category === 'all') {
-      setFilteredProjects(projectsData);
+      setFilteredProjects(projectsData.filter(project => project.featured));
     } else {
       setFilteredProjects(projectsData.filter(project => project.category === category));
     }

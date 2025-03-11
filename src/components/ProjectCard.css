@@ -6,7 +6,7 @@
 
   .project-card.visible {
     opacity: 1;
-    transition: 0.2s ease-in; /* fade in when seen*/
+    transition: 0.25s ease-in; /* fade in when seen*/
     z-index: 1;
   }
 
