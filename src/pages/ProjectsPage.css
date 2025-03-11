@@ -1,21 +1,22 @@
 .projects-page {
-  .masonry-grid {
-    display: flex;
-    width: 100%;
-  }
+}
+  
+.masonry-grid {
+  display: flex;
+  width: 100%;
+}
 
-  .masonry-grid-column {
-    padding-left: 2rem;
-    background-clip: padding-box;
-    
-    &:first-child {
-      padding-left: 0;
-    }
+.masonry-grid-column {
+  padding-left: 2rem;
+  background-clip: padding-box;
+  
+  &:first-child {
+    padding-left: 0;
   }
+}
 
-  @media (max-width: 768px) {
-    .projects-page {
-      padding: 1rem;
-    }
+@media (max-width: 768px) {
+  .projects-page {
+    padding: 1rem;
   }
 }

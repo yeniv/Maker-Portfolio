@@ -24,7 +24,7 @@
   p.project-title {
     z-index: 2;
     position: absolute;
-    margin: 0.7rem 1rem;
+    margin: 0.5rem 0.8rem;
     font-size: 0.7rem;
     color: #999;
     text-transform: uppercase;
@@ -43,5 +43,5 @@
 
   .project-card:hover .project-image-container img {
     /* transform: scale(1.05); */ /* will use scale for another category */
-    transform: translateY(2.6rem);
+    transform: translateY(2.4rem);
   }
