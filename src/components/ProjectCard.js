@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
   // Use Intersection Observer to detect when card is visible
   const { ref, inView } = useInView({
     triggerOnce: true, // Only trigger the animation once
-    threshold: .6, // Trigger when 60% of the card is visible
+    threshold: .7, // Trigger when 70% of the card is visible
     rootMargin: '0px 0px 0px 0px' // Add some margin to trigger earlier
   });
 
@@ -27,7 +27,7 @@ const ProjectCard = ({ project }) => {
   return (
     <div
       ref={ref}
-      className={`project-card ${isVisible ? 'visible' : ''}`}
+      className={`project-card ${project.category} ${isVisible ? 'visible' : ''}`}
       style={{ willChange: 'opacity, transform' }} // Optimize for animation performance
     >
       <Link to={`/project/${project.id}`}>

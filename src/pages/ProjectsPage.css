@@ -7,7 +7,7 @@
 }
 
 .masonry-grid-column {
-  padding-left: 2rem;
+  padding-left: 1.4rem;
   background-clip: padding-box;
   
   &:first-child {

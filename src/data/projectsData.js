@@ -1,6 +1,6 @@
 export const projectsData = [
   {
-    id: 'WAL-LE',
+    id: 'wal-le',
     title: 'WAL-LE',
     featured: true,
     category: 'films',
@@ -52,6 +52,13 @@ export const projectsData = [
       '/images/WAL-LE/WAL-LE-web-gallery-22.jpg', 
       '/images/WAL-LE/WAL-LE-web-gallery-16.jpg', 
     ]
+  },
+  {
+    id: 'portrait-2',
+    featured: true,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-2.jpg',
+    mainImage: '/images/Portraits/portrait-main-2.jpg',
   },
   {
     id: 'anything-helps',
@@ -109,20 +116,20 @@ export const projectsData = [
           I delivered 6 videos in total. One hero promotional video, a shorter cutdown edit, and an edit focusing on each stage in the development process.
         </p>
         <br></br>
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/IGYiVfkCWmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div className="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/IGYiVfkCWmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/G_fxjCeqPiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div className="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/G_fxjCeqPiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/8SudOSpmjQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div className="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/8SudOSpmjQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/DVsgOdGgFFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div className="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/DVsgOdGgFFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/cNiX4H1d_Lk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div className="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/cNiX4H1d_Lk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
       </div>,
     youTubeVideo: 'aKqsFvzh0l4',
@@ -182,8 +189,8 @@ export const projectsData = [
         <p>Armed with a brief, a GoPro, and access to a heavily monitored iMac, we set out to capture something beautiful. Something that would make Terrence Malick weep with joy.</p>
         <p>But — alas — our final idea was so simple that we filmed it in our hotel room by taping our GoPro to a lamp.</p>
         <p>Below is our winning film in the Australian Young Lions Film Competition, which earned Carl I the honour of representing Australia and duking it out against 48 teams from around the world in the South of France.</p>
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/UUhPsbfuwBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div className="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/UUhPsbfuwBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
       </div>,
     youTubeVideo: 'xBrbWiPU-Eg',
@@ -191,7 +198,7 @@ export const projectsData = [
     client: 'Barnardos Australia',
   },
   {
-    id: 'HCG',
+    id: 'hcg',
     title: 'KFC Home Cricket Ground',
     featured: true,
     category: 'ads',
@@ -209,24 +216,24 @@ export const projectsData = [
           🤑 498% ROI
         </p>
         <h3>User-submitted videos</h3>
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/bq7grSWVdi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div className="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/bq7grSWVdi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/YB_qK3waZhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div className="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/YB_qK3waZhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
         <h3>Television campaign</h3>
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/v6p3SQjKeAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div className="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/v6p3SQjKeAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/qxL3BTdO2mU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div className="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/qxL3BTdO2mU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/itq6bjzUj_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div className="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/itq6bjzUj_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
-        {/* <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Uk6AGEBm2WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        {/* <div className="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Uk6AGEBm2WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div> */}
       </div>,
     youTubeVideo: 'x26ZsQBRynw',
@@ -247,18 +254,18 @@ export const projectsData = [
         <p>When a flock of students scuff the freshly-buffed floors, a Janitor gets even in the best way imaginable – by eating KFC's $2.50 Chips & Gravy in front of them. Obviously.</p> 
         <h3>Additional TV - Soccer Dad</h3>
         <p>After driving a gaggle of screaming girls to soccer, all Dad wants is a little peace and quiet. Oh, and a bucket of KFC. Is that too much to ask?</p>
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/hd1cX4PkG5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div className="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/hd1cX4PkG5I" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
         <h3>Radio executions - The Narrator</h3>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/329312908&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/329312908&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </div>,
     youTubeVideo: '3dQPZqtOcl0',
     toolkit: ['Copywriter'],
     client: 'KFC'
   },
   {
-    id: 'bizcover-turn-off',
+    id: 'turn-off',
     title: 'Turn Off',
     featured: true,
     category: 'ads',
@@ -270,8 +277,8 @@ export const projectsData = [
         <p>We created intentionally gross — really gross — ads to give business owners the nudge they needed to stop watching, listening, and procrastinating — and head to BizCover.com.au to get a better deal on their small business insurance.</p>
         <p>It worked. Possibly a little too well, given the number of complaints this campaign received. But I'd be lying if I said listening to people complain about my disgusting toenail commercial wasn't a career highlight.</p>
         <h3>Additional TVC</h3>
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/hsIqROqZzxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div className="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/hsIqROqZzxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
         <h3>Radio executions</h3>
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2051541376&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
@@ -283,7 +290,7 @@ export const projectsData = [
     client: 'BizCover'
   },
   {
-    id: 'kfc-sounds-like',
+    id: 'sounds-like',
     title: 'Sounds Like',
     featured: true,
     category: 'ads',
@@ -299,7 +306,7 @@ export const projectsData = [
     client: 'KFC'
   },
   {
-    id: 'chocolates-by-tomes',
+    id: 'gifts-for-any-occassion',
     title: 'Gifts for any occassion',
     featured: true,
     category: 'ads',
@@ -314,7 +321,7 @@ export const projectsData = [
     client: 'Chocolate by Tomes'
   },
   {
-    id: 'amazon-alexa',
+    id: 'unbelievably-easy',
     title: 'Unbelievably easy',
     featured: true,
     category: 'ads',
@@ -346,5 +353,189 @@ export const projectsData = [
       </div>,
     toolkit: ['Copywriter'],
     client: 'RadioApp'
+  }, 
+  {
+    id: 'portrait-1',
+    featured: true,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-1.jpg',
+    mainImage: '/images/Portraits/portrait-main-1.jpg',
+  },
+  {
+    id: 'portrait-3',
+    featured: true,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-3.jpg',
+    mainImage: '/images/Portraits/portrait-main-3.jpg',
+  },
+  {
+    id: 'portrait-4',
+    featured: true,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-4.jpg',
+    mainImage: '/images/Portraits/portrait-main-4.jpg',
+  },
+  {
+    id: 'portrait-5',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-5.jpg',
+    mainImage: '/images/Portraits/portrait-main-5.jpg',
+  },
+  {
+    id: 'portrait-6',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-6.jpg',
+    mainImage: '/images/Portraits/portrait-main-6.jpg',
+  },
+  {
+    id: 'portrait-7',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-7.jpg',
+    mainImage: '/images/Portraits/portrait-main-7.jpg',
+  },
+  {
+    id: 'portrait-8',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-8.jpg',
+    mainImage: '/images/Portraits/portrait-main-8.jpg',
+  },
+  {
+    id: 'portrait-9',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-9.jpg',
+    mainImage: '/images/Portraits/portrait-main-9.jpg',
+  },
+  {
+    id: 'portrait-10',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-10.jpg',
+    mainImage: '/images/Portraits/portrait-main-10.jpg',
+  },
+  {
+    id: 'portrait-11',
+    featured: true,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-11.jpg',
+    mainImage: '/images/Portraits/portrait-main-11.jpg',
+  },
+  {
+    id: 'portrait-12',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-12.jpg',
+    mainImage: '/images/Portraits/portrait-main-12.jpg',
+  },
+  {
+    id: 'portrait-13',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-13.jpg',
+    mainImage: '/images/Portraits/portrait-main-13.jpg',
+  },
+  {
+    id: 'portrait-14',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-14.jpg',
+    mainImage: '/images/Portraits/portrait-main-14.jpg',
+  },
+  {
+    id: 'portrait-15',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-15.jpg',
+    mainImage: '/images/Portraits/portrait-main-15.jpg',
+  },
+  {
+    id: 'portrait-16',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-16.jpg',
+    mainImage: '/images/Portraits/portrait-main-16.jpg',
+  },
+  {
+    id: 'portrait-17',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-17.jpg',
+    mainImage: '/images/Portraits/portrait-main-17.jpg',
+  },
+  {
+    id: 'portrait-18',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-18.jpg',
+    mainImage: '/images/Portraits/portrait-main-18.jpg',
+  },
+  {
+    id: 'portrait-19',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-19.jpg',
+    mainImage: '/images/Portraits/portrait-main-19.jpg',
+  },
+  {
+    id: 'portrait-20',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-20.jpg',
+    mainImage: '/images/Portraits/portrait-main-20.jpg',
+  },
+  {
+    id: 'portrait-21',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-21.jpg',
+    mainImage: '/images/Portraits/portrait-main-21.jpg',
+  },
+  {
+    id: 'portrait-22',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-22.jpg',
+    mainImage: '/images/Portraits/portrait-main-22.jpg',
+  },
+  {
+    id: 'portrait-23',
+    featured: false,
+    category: 'portraits',
+    thumbnail: '/images/Portraits/portrait-thumbnail-23.jpg',
+    mainImage: '/images/Portraits/portrait-main-23.jpg',
+  },
+  {
+    id: 'troopl',
+    title: 'Troopl',
+    featured: true,
+    category: 'web-apps',
+    thumbnail: '/images/Troopl/Troopl-thumbnail.jpg',
+    // thumbnail: '/images/Portraits/portrait-thumbnail-2.jpg',
+    description: '',
+    fullDescription:
+      <div>
+      </div>,
+    youTubeVideo: 'x26ZsQBRynw',
+    toolkit: ['Copywriter'],
+    client: 'KFC'
+  },
+  {
+    id: 'beepFM',
+    title: 'beepFM',
+    featured: true,
+    category: 'web-apps',
+    thumbnail: '/images/beepFM/beepFM-thumbnail.jpg',
+    // thumbnail: '/images/Portraits/portrait-thumbnail-2.jpg',
+    description: '',
+    fullDescription:
+      <div>
+      </div>,
+    youTubeVideo: 'x26ZsQBRynw',
+    toolkit: ['Copywriter'],
+    client: 'KFC'
   },
 ];
