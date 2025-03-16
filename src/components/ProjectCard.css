@@ -15,17 +15,18 @@
   z-index: 1;
 }
 
-.project-card.web-apps {
-  img {
+/* Unqiue look for the web app cards */
+/* Don't know if I'm a fan */
+/* .project-card.web-apps {
+  --shadow: rgba(0, 0, 0, 0.25) 1px 11px 15px 10px;
+  --shadow-hover: rgba(0, 0, 0, 0.25) 1px 11px 20px 5px;
 
-    --shadow: rgba(0, 0, 0, 0.25) 1px 11px 15px 10px;
-    --shadow-hover: rgba(0, 0, 0, 0.25) 1px 11px 20px 5px;
+  img {
     transform: scale(.91) translateY(2.3rem);
     box-shadow: var(--shadow);
     -webkit-box-shadow: var(--shadow);
     -moz-box-shadow: var(--shadow);
     transition: 0.1s ease-in;
-    /* fade in when seen*/
   }
   &:hover {
     img {
@@ -35,7 +36,7 @@
       -moz-box-shadow: var(--shadow-hover);
     }
   }
-}
+} */
 
 .project-image-container {
   overflow: hidden;
@@ -65,7 +66,8 @@ p.project-title {
 
 .project-card:hover {
   &.ads,
-  &.films {
+  &.films,
+  &.web-apps {
     .project-image-container img {
       transform: translateY(2.4rem);
     }

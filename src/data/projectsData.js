@@ -514,28 +514,118 @@ export const projectsData = [
     featured: true,
     category: 'web-apps',
     thumbnail: '/images/Troopl/Troopl-thumbnail.jpg',
-    // thumbnail: '/images/Portraits/portrait-thumbnail-2.jpg',
+    mainImage: '/images/Troopl/Troopl-main-image.jpg',
     description: '',
     fullDescription:
       <div>
       </div>,
-    youTubeVideo: 'x26ZsQBRynw',
-    toolkit: ['Copywriter'],
-    client: 'KFC'
+    toolkit: ['Startup founder', 'Ruby on Rails', 'React', 'Ruby', 'Javascript', 'PostgreSQL', 'HTML', 'CSS', 'Stripe Payments', 'Hackathon events', 'Online community'],
+    imageGallery: [
+      '/images/Troopl/troopl-web-gallery-1.jpg',
+      '/images/Troopl/troopl-web-gallery-2.jpg',
+      '/images/Troopl/troopl-web-gallery-3.jpg',
+      '/images/Troopl/troopl-web-gallery-4.jpg',
+      '/images/Troopl/troopl-web-gallery-5.jpg',
+      '/images/Troopl/troopl-web-gallery-6.jpg',
+      '/images/Troopl/troopl-web-gallery-7.jpg',
+      '/images/Troopl/troopl-web-gallery-8.jpg',
+      '/images/Troopl/troopl-web-gallery-9.jpg',
+      '/images/Troopl/troopl-web-gallery-10.jpg',
+    ],
+    buttons: [['View live site 👀', 'https://www.troopl.com']]
+    // client: ''
   },
   {
     id: 'beepFM',
     title: 'beepFM',
     featured: true,
     category: 'web-apps',
+    // category: 'films',
     thumbnail: '/images/beepFM/beepFM-thumbnail.jpg',
-    // thumbnail: '/images/Portraits/portrait-thumbnail-2.jpg',
+    // mainImage: '/images/beepFM/beepFM-main-image.jpg',
+    description: '',
+    fullDescription:
+      <div>
+        <p>beepFM was an interactive audio experience where users could record and listen to anonymous voicemails. People shared secrets, memories, confessions, rants, apologies, desires, stories, dreams, ambitions, or anything else they wanted to get off their chest.</p>
+        <p>As the voicemails played over ambient music from producer <a href='http://twitch.tv/scoopinresponse' target='_blank' rel='noopener noreferrer'>Matthew Macinante</a>, the yellow sphere background lines took on new shapes and movements, visualising the audio.</p>
+        <p>[how it was built...]</p>
+        <p>[the results...]</p>
+        <p>[no longer online, head a sample of the audio...]</p>
+        <div className="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/fcUqHwzMj2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        </div>
+      </div>,
+    youTubeVideo: 'MML36vsGg9Y',
+    toolkit: ['Ruby on Rails', 'React', 'Ruby', 'Javascript', 'PostgreSQL', 'HTML', 'CSS', 'Redux', 'Audio Visualiser', 'WebSockets'],
+    imageGallery: [
+      '/images/beepFM/beepFM-web-gallery-1.jpg',
+      '/images/beepFM/beepFM-web-gallery-2.jpg',
+      '/images/beepFM/beepFM-web-gallery-3.jpg',
+      '/images/beepFM/beepFM-web-gallery-4.jpg'
+    ]
+  },
+  {
+    id: 'run-forrest-run',
+    title: '#runforrestrun',
+    featured: true,
+    category: 'web-apps',
+    thumbnail: '/images/run-forrest-run/run-forrest-run-thumbnail-2.jpg',
+    mainImage: '/images/run-forrest-run/run-forrest-run-main-image.jpg',
+    description: '',
+    fullDescription:
+      <div>
+        <h2>Tweet #runforrestrun to make Forrest Gump run another mile.</h2>
+        <a href="https://www.producthunt.com/posts/run-forrest-run?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-run&#0045;forrest&#0045;run" target="_blank" rel="noreferrer"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=159143&theme=light&period=daily&t=1742083430394" alt="Run&#0044;&#0032;Forrest&#0033;&#0032;Run&#0033; - Tweet&#0032;&#0035;runforrestrun&#0032;to&#0032;make&#0032;Forrest&#0032;Gump&#0032;run&#0032;another&#0032;mile&#0046; | Product Hunt" style={{ width: '250px', height: '54px', 'margin-bottom': '2rem' }} width="250" height="54" /></a>
+        <p>
+          In 1979, Forrest Gump started running. 3 years, 2 months, 14 days, 16 hours, and 13,089 miles later he said he was tired... and went home.
+        </p><p>
+          I wanted to see how long it would take Forrest (and the internet) to do it again. So I built a web app that moves Forrest 1 mile along his 13,089 mile route each time #runforrestrun is Tweeted.
+        </p><p>
+          Forrest runs between the 9 known locations from the movie, from Alabama to Monument Valley, Utah.
+        </p><p>
+          The GeoJSON route was calculated using the Mapbox Directions API, which generated thousands of latitude-longitude coordinates following the roads. However, the API wouldn't calculate a route this long, so I wrote a function combining several API calls.
+        </p><p>
+          A scheduled Sidekiq background task calls the Twitter API every 24-seconds (150 calls per hour limit) to find new Tweets containing #runforrestrun.
+        </p><p>
+          When a new Tweet is found, the Forrest Gump marker is moved 1 mile along the route, the map zooms in, and a random Forrest Gump quote appears in a popup.
+        </p><p>
+          Relevant information from the Tweet is stored and the most recent 50 Tweets are displayed individually in a card. The hashtags, mentions, and links are all clickable.
+        </p><p>
+          Using WebSockets, new Tweets are added to the top of the list, Forrest Gump moves, and the miles remaining counter, well, counts down — all without reloading the page.
+        </p><p>
+          The idea picked up momentum on Twitter, was the 4th Product of the Day on Product hunt, and got a ✌️ of approval from DDH, the inventor of Ruby on Rails.
+        </p>
+      </div>,
+    toolkit: ['Ruby', 'Ruby on Rails', 'Javascript', 'CSS', 'HTML', 'PostgreSQL', 'Twitter API', 'Mapbox API', 'Mapbox Directions API', 'WebSockets', 'Sidekiq Scheduler'],
+    imageGallery: [
+      '/images/run-forrest-run/run-forrest-run-web-gallery-1.jpg',
+      '/images/run-forrest-run/run-forrest-run-web-gallery-2.jpg',
+      '/images/run-forrest-run/run-forrest-run-web-gallery-3.jpg',
+      '/images/run-forrest-run/run-forrest-run-web-gallery-6.jpg',
+      '/images/run-forrest-run/run-forrest-run-web-gallery-4.jpg',
+      '/images/run-forrest-run/run-forrest-run-web-gallery-5.jpg',
+    ],
+    buttons: [['View code 👀', 'https://github.com/yeniv/Run-Forrest-Run']]
+  },
+  {
+    id: 'camera-price-list',
+    title: 'Camera Price List',
+    featured: true,
+    category: 'web-apps',
+    thumbnail: '/images/camera-price-list/camera-price-list-thumbnail.jpg',
+    // thumbnail: '/images/camera-price-list/camera-price-list-main-image.jpg',
+    mainImage: '/images/camera-price-list/camera-price-list-main-image.jpg',
     description: '',
     fullDescription:
       <div>
       </div>,
-    youTubeVideo: 'x26ZsQBRynw',
-    toolkit: ['Copywriter'],
-    client: 'KFC'
+    toolkit: ['Ruby', 'Ruby on Rails', 'Turbo Rails', 'CSS', 'HTML', 'PostgreSQL', 'Web scraper', 'CRON Scheduler'],
+    imageGallery: [
+      '/images/camera-price-list/camera-price-list-web-gallery-1.jpg',
+      '/images/camera-price-list/camera-price-list-web-gallery-2.jpg',
+      '/images/camera-price-list/camera-price-list-web-gallery-3.jpg',
+      '/images/camera-price-list/camera-price-list-web-gallery-4.jpg'
+    ],
+    buttons: [['View live website 👀', 'https://www.camerapricelist.com']]
   },
 ];

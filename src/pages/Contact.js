@@ -98,9 +98,9 @@ const Contact = () => {
             <div className="contact-method">
               <h3>Social</h3>
               <div className="social-links">
-                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
-                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://behance.net/" target="_blank" rel="noopener noreferrer">Behance</a>
+                <a href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+                <a href="https://linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="https://behance.net/" target="_blank" rel="noreferrer">Behance</a>
               </div>
             </div>
           </div>

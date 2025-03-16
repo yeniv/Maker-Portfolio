@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Masonry from 'react-masonry-css';
 import './ProjectPage.css';
+import '../components/Header.css';
 import { projectsData } from '../data/projectsData';
 
 const ProjectDetail = () => {
@@ -32,7 +33,7 @@ const ProjectDetail = () => {
   }
 
   if (!project) {
-    return <div className="error">Project not found</div>;
+    return <p className="error">Project not found</p>;
   }
 
   return (
@@ -41,7 +42,6 @@ const ProjectDetail = () => {
         <h1>{project.title}</h1>
         <h3 className="project-category">{project.category}</h3>
       </div>
-
     {/* Don't show hero image for films */}
     {/* Skip to player -- with a thumbnail */}
       { project.mainImage && (
@@ -68,6 +68,15 @@ const ProjectDetail = () => {
           { project.fullDescription }
         </div>
         <div className="project-meta">
+          {project.buttons && (
+            <div className="project-buttons">
+              {
+                project.buttons.map(p => (
+                  <a className='button' target="_blank" rel="noreferrer" href={p[1]}>{p[0]}</a>
+                ))
+              }
+            </div>
+          )}
           {project.toolkit && (
             <div className="meta-section">
               <h3>Toolkit</h3>
@@ -91,12 +100,12 @@ const ProjectDetail = () => {
         <div className="project-image-gallery">
           <Masonry
             key={ project.category }
-            breakpointCols={ project.breakpointColumnsObj }
+            breakpointCols={ breakpointColumnsObj }
             className="masonry-grid"
             columnClassName="projecct-image-gallery-masonry-grid-column"
           >
             {project.imageGallery.map(image => (
-              <img src={image} />
+              <img src={image} alt=''/>
             ))}
           </Masonry>
         </div>
