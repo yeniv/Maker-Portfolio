@@ -1,4 +1,4 @@
-.about-page {
+.info-page {
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem;
@@ -24,7 +24,7 @@
     }
   }
   
-  .about-grid {
+  .page-grid {
     display: flex;
     
     @media(max-width: 650px) {
@@ -40,13 +40,13 @@
         width: 100%;
       }
       
-      .group {
-        /* margin-bottom: 1rem; */
-      }
+      .row {}
     }
-    
-    p {
-      line-height: 1.2rem;
+
+    &.about {
+      p {
+        line-height: 1.2rem;
+      }
     }
   }
 }

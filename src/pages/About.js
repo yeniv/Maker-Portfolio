@@ -1,9 +1,9 @@
 import React from 'react';
-import './About.css';
+import './InfoPage.css';
 
 const About = () => {
   return (
-    <div className="about-page">
+    <div className="info-page">
       <div className="about-content">
         <h1>
           Tristan Viney is a multidisciplinary maker based in Sydney, Australia.
@@ -12,9 +12,9 @@ const About = () => {
           
           {/* He also thinks it's silly to write about himself in third person — so enough of that. */}
         </h1>
-        <div className="about-grid">
+        <div className="page-grid about">
           <div className="column">
-            <div className="group">
+            <div className="row">
               <h3>Experience</h3>
               <p><b>Portrait photographer + filmmaker</b></p> 
               <p>Freelance, Toronto</p>
@@ -45,7 +45,7 @@ const About = () => {
               <p>2012 — 2014</p>
               <br />
             </div>
-            <div className="group">
+            <div className="row">
               <h3>Education</h3>
               <p><b>Web Development Bootcamp</b></p>
               <p>Le Wagon, Amsterdam</p>
@@ -66,7 +66,7 @@ const About = () => {
             </div>
           </div>
           <div className="column">
-            <div className="group">
+            <div className="row">
               <h3>Awards</h3>
               <p><b>Dead Center Film Festival</b></p>
               <p>Official Selection, Anything Helps</p>
@@ -105,7 +105,7 @@ const About = () => {
               <p>2013</p>
               <br />
             </div>
-            <div className="group">
+            <div className="row">
               <h3>Award Juries</h3>
               <p><b>The One Show</b></p>
               <p>Radio</p>
@@ -120,6 +120,24 @@ const About = () => {
         </div>
         <div className="button-container">
           <a className='button' href="/tristan-viney-resume.pdf" download>Download resume</a>
+        </div>
+        <h2>
+          Feel free to get in touch for collaboration requests, additional information, or coffee (on me).
+        </h2>
+        <div className="page-grid">
+          <div className="column">
+            <h3>Contact</h3>
+            <p>(+61) 0438 527-815</p>
+            <a className="text-link" href="mailto:hi@tristanviney.com">hi@tristanviney.com</a>
+            <br />
+          </div>
+          <div className="column">
+            <h3>Socials</h3>
+            <a className="text-link" href="http://instagram.com/tristan_viney" target="_blank" rel="noreferrer" >Instagram</a>
+            <a className="text-link" href="https://www.linkedin.com/in/tristanviney" target="_blank" rel="noreferrer" >LinkedIn</a>
+            <a className="text-link" href="https://www.youtube.com/@tristan_viney" target="_blank" rel="noreferrer" >YouTube</a>
+            <a className="text-link" href="https://github.com/yeniv" target="_blank" rel="noreferrer" >GitHub</a>
+          </div>
         </div>
       </div>
     </div>
