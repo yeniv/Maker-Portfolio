@@ -85,9 +85,10 @@ const Header = () => {
         <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>
           About
         </Link>
-        <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>
+        {/* <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>
           Contact
-        </Link>
+        </Link> */}
+        <a target="_blank" href="/tristan-viney-resume.pdf" download>CV</a>
       </nav>
     </header>
   );

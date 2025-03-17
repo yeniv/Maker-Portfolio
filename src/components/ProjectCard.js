@@ -9,7 +9,7 @@ const ProjectCard = ({ project, onPortraitClick }) => {
   // Use Intersection Observer to detect when card is visible
   const { ref, inView } = useInView({
     triggerOnce: true, // Only trigger the animation once
-    threshold: .7, // Trigger when 70% of the card is visible
+    threshold: .6, // Trigger when 70% of the card is visible
     rootMargin: '0px 0px 0px 0px' // Add some margin to trigger earlier
   });
 
@@ -26,10 +26,8 @@ const ProjectCard = ({ project, onPortraitClick }) => {
 
   // Handle click for portrait images
   const handlePortraitClick = (e) => {
-    if (project.category === 'portraits') {
-      e.preventDefault();
-      onPortraitClick(project.id);
-    }
+    e.preventDefault();
+    onPortraitClick(project.id);
   };
 
   return (

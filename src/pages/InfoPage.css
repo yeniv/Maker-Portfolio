@@ -2,9 +2,9 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem;
+  text-align: center;
 
   h1 {
-    text-align: center;
     margin-bottom: 3rem;
 
     @media(max-width: 650px) {
@@ -16,7 +16,7 @@
   .button-container {
     display: flex;
     justify-content: center;
-    padding: 3rem 0;
+    padding-top: 3rem;
 
     .button {
       display: inline-block;

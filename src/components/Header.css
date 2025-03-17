@@ -42,8 +42,6 @@
 
   .categories-nav a,
   .secondary-nav a {
-    text-decoration: none;
-    color: #a3a3a3;
     padding: 0.2rem .6rem;
     border-radius: 4px;
     position: relative;

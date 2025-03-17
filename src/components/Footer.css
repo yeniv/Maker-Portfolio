@@ -1,0 +1,18 @@
+footer {
+  display: flex; 
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 3rem 0;
+
+  a {
+    padding: 1rem 2rem;
+    text-transform: lowercase;
+  }
+
+  .emoji {
+    margin: 3rem 0 1rem;
+    font-size: 2rem;
+    display: block;
+  }
+}
