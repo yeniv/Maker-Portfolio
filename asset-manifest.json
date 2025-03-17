@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Maker-Portfolio/static/css/main.4ab69736.css",
-    "main.js": "/Maker-Portfolio/static/js/main.3e8a92a8.js",
-    "static/js/453.2ca84c3c.chunk.js": "/Maker-Portfolio/static/js/453.2ca84c3c.chunk.js",
-    "index.html": "/Maker-Portfolio/index.html",
-    "main.4ab69736.css.map": "/Maker-Portfolio/static/css/main.4ab69736.css.map",
-    "main.3e8a92a8.js.map": "/Maker-Portfolio/static/js/main.3e8a92a8.js.map",
-    "453.2ca84c3c.chunk.js.map": "/Maker-Portfolio/static/js/453.2ca84c3c.chunk.js.map"
+    "main.css": "/static/css/main.4ab69736.css",
+    "main.js": "/static/js/main.55b11a45.js",
+    "static/js/453.2ca84c3c.chunk.js": "/static/js/453.2ca84c3c.chunk.js",
+    "index.html": "/index.html",
+    "main.4ab69736.css.map": "/static/css/main.4ab69736.css.map",
+    "main.55b11a45.js.map": "/static/js/main.55b11a45.js.map",
+    "453.2ca84c3c.chunk.js.map": "/static/js/453.2ca84c3c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ab69736.css",
-    "static/js/main.3e8a92a8.js"
+    "static/js/main.55b11a45.js"
   ]
 }
