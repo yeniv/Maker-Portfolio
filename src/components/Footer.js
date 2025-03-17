@@ -12,7 +12,7 @@ const Footer = () => {
         <a href="https://github.com/yeniv" target="_blank" rel="noreferrer" >GitHub</a>
         <a href="mailto:hi@tristanviney.com">Email</a>
       </div>
-      <Link to="/" className="emoji">🐝</Link>
+      <Link to="/" className="emoji">🍕</Link>
     </footer>
   );
 };

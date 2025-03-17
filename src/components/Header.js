@@ -10,7 +10,7 @@ const Header = () => {
 
   // Categories for project filtering
   const categories = [
-    { id: 'all', label: 'Tristan 🐝' },
+    { id: 'all', label: 'Tristan 🍕' },
     { id: 'web-apps', label: 'Web apps' },
     { id: 'ads', label: 'Ads' },
     { id: 'portraits', label: 'Portraits' },

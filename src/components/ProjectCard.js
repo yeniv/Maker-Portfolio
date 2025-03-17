@@ -9,7 +9,7 @@ const ProjectCard = ({ project, onPortraitClick }) => {
   // Use Intersection Observer to detect when card is visible
   const { ref, inView } = useInView({
     triggerOnce: true, // Only trigger the animation once
-    threshold: .6, // Trigger when 70% of the card is visible
+    threshold: .4, // Trigger when 40% of the card is visible
     rootMargin: '0px 0px 0px 0px' // Add some margin to trigger earlier
   });
 

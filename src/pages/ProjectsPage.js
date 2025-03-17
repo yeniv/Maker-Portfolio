@@ -25,10 +25,16 @@ const ProjectsPage = () => {
     }
   }, [category]);
 
-  // Breakpoints for the masonry layout
-  const breakpointColumnsObj = {
-    default: 3, // 3 columns on desktop
+  const defaultBreakpointColumns = {
+    default: 3 , // 3 columns on desktop
     768: 2,     // 2 columns on tablet
+    480: 1      // 1 column on mobile
+  };
+
+  const portraitBreakpointColumns = {
+    default: 3 , // 3 columns on desktop
+    950: 3,     // 2 columns on tablet
+    700: 2,     // 2 columns on tablet
     480: 1      // 1 column on mobile
   };
 
@@ -60,10 +66,10 @@ const ProjectsPage = () => {
   };
 
   return (
-    <div className="projects-page">
+    <div className={`projects-page ${category}`}>
       <Masonry
         key={category || 'all'}
-        breakpointCols={breakpointColumnsObj}
+        breakpointCols={category == 'portraits' ? portraitBreakpointColumns : defaultBreakpointColumns}
         className="masonry-grid"
         columnClassName="masonry-grid-column"
       >
