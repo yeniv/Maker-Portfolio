@@ -5,74 +5,121 @@ const About = () => {
   return (
     <div className="about-page">
       <div className="about-content">
-        <h1>About Me</h1>
+        <h1>
+          Tristan Viney is a multidisciplinary maker based in Sydney, Australia.
 
-        <div className="about-image">
-          <img
-            src="/images/profile.jpg"
-            alt="Tristan Viney"
-            onError={(e) => {
-              e.target.src = "/api/placeholder/400/400";
-              e.target.alt = "Profile photo placeholder";
-            }}
-          />
+          His passion for brutally simple, well-crafted ideas manifests itself in web apps, advertising campaigns, portrait photography, and films.
+          
+          {/* He also thinks it's silly to write about himself in third person — so enough of that. */}
+        </h1>
+        <div className="about-grid">
+          <div className="column">
+            <div className="group">
+              <h3>Experience</h3>
+              <p><b>Portrait photographer + filmmaker</b></p> 
+              <p>Freelance, Toronto</p>
+              <p>2023 — ongoing</p>
+              <br />
+              <p><b>Co-Founder</b></p>
+              <p>Troopl, Amsterdam</p>
+              <p>2020 — 2022</p>
+              <br />
+              <p><b>Full-stack developer</b></p>
+              <p>ShopPop, Amsterdam</p>
+              <p>2019 — 2020</p>
+              <br />
+              <p><b>Creative Director</b></p>
+              <p>Eardrum, Sydney</p>
+              <p>2017 — 2019</p>
+              <br />
+              <p><b>Copywriter</b></p>
+              <p>Ogilvy, Sydney</p>
+              <p>2016 — 2017</p>
+              <br />
+              <p><b>Copywriter</b></p>
+              <p>AJF Partnership, Sydney</p>
+              <p>2014 — 2016</p>
+              <br />
+              <p><b>Copywriter</b></p>
+              <p>Y&R, Brisbane</p>
+              <p>2012 — 2014</p>
+              <br />
+            </div>
+            <div className="group">
+              <h3>Education</h3>
+              <p><b>Web Development Bootcamp</b></p>
+              <p>Le Wagon, Amsterdam</p>
+              <p>2019</p>
+              <br />
+              <p><b>AWARD School (2nd place)</b></p>
+              <p>Advertising Council Australia, Brisbane</p>
+              <p>2012</p>
+              <br />
+              <p><b>Bachelor of Business, Advertising (Honours)</b></p>
+              <p>Queensland University of Technology, Brisbane</p>
+              <p>2009-2011</p>
+              <br />
+              <p><b>Diploma of Screen</b></p>
+              <p>Queensland School of Film & Television, Brisbane</p>
+              <p>2006-2007</p>
+              <br />
+            </div>
+          </div>
+          <div className="column">
+            <div className="group">
+              <h3>Awards</h3>
+              <p><b>Dead Center Film Festival</b></p>
+              <p>Official Selection, Anything Helps</p>
+              <p>2019</p>
+              <br />
+              <p><b>Tropfest</b></p>
+              <p>Shortlist, Anything Helps</p>
+              <p>2019</p>
+              <br />
+              <p><b>Australian Young Lions</b></p>
+              <p>Winner, Digital</p>
+              <p>2018</p>
+              <br />
+              <p><b>Spikes Asia</b></p>
+              <p>Gold, Young Spikes Digital</p>
+              <p>2017</p>
+              <br />
+              <p><b>Australian Young Lions</b></p>
+              <p>Runner up, Digital</p>
+              <p>2017</p>
+              <br />
+              <p><b>Siren Awards</b></p>
+              <p>Campaign Finalist, Sounds Like</p>
+              <p>2017</p>
+              <br />
+              <p><b>Cannes Lions</b></p>
+              <p>Silver, Young Lions Film</p>
+              <p>2014</p>
+              <br />
+              <p><b>Australian Young Lions</b></p>
+              <p>Winner, Film</p>
+              <p>2014</p>
+              <br />
+              <p><b>Young Glory</b></p>
+              <p>Winner, Professional Category</p>
+              <p>2013</p>
+              <br />
+            </div>
+            <div className="group">
+              <h3>Award Juries</h3>
+              <p><b>The One Show</b></p>
+              <p>Radio</p>
+              <p>2018</p>
+              <br />
+              <p><b>AWARD Awards</b></p>
+              <p>Radio</p>
+              <p>2018</p>
+              <br />
+            </div>
+          </div>
         </div>
-
-        <div className="about-text">
-          <p>
-            I'm Tristan Viney, a multidisciplinary maker based in [Your Location].
-            With over [X] years of experience in design, development, and creative
-            direction, I specialize in creating meaningful digital experiences that
-            connect brands with their audiences.
-          </p>
-
-          <p>
-            My work spans across web applications, advertising campaigns, portrait
-            photography, and film production. Each project is approached with a
-            focus on clean aesthetics, intuitive functionality, and authentic storytelling.
-          </p>
-
-          <h2>Expertise</h2>
-          <ul className="expertise-list">
-            <li>
-              <span className="expertise-title">Web Development</span>
-              <span className="expertise-description">Frontend development with React, responsive design, performance optimization</span>
-            </li>
-            <li>
-              <span className="expertise-title">Digital Advertising</span>
-              <span className="expertise-description">Strategic campaign planning, creative direction, content production</span>
-            </li>
-            <li>
-              <span className="expertise-title">Photography</span>
-              <span className="expertise-description">Portrait and lifestyle photography, studio lighting, post-production</span>
-            </li>
-            <li>
-              <span className="expertise-title">Filmmaking</span>
-              <span className="expertise-description">Short films, documentaries, promotional videos, editing</span>
-            </li>
-          </ul>
-
-          <h2>Education</h2>
-          <p>
-            [Your Degree] in [Your Field] — [Your University], [Graduation Year]
-          </p>
-
-          <h2>Experience</h2>
-          <div className="experience-item">
-            <h3>[Your Position]</h3>
-            <p className="experience-company">[Company Name] — [Years]</p>
-            <p className="experience-description">
-              Brief description of your role and responsibilities.
-            </p>
-          </div>
-
-          <div className="experience-item">
-            <h3>[Previous Position]</h3>
-            <p className="experience-company">[Previous Company] — [Years]</p>
-            <p className="experience-description">
-              Brief description of your role and responsibilities.
-            </p>
-          </div>
+        <div className="button-container">
+          <a className='button' href="/tristan-viney-resume.pdf" download>Download resume</a>
         </div>
       </div>
     </div>
