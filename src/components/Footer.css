@@ -13,7 +13,12 @@ footer {
     margin: 3rem 0 1rem;
     font-size: 2rem;
     display: block;
+    animation: scale 2s ease-in-out;
+    &:hover {
+      transform: scale(1.1)
+    }
   }
+
 
   @media (max-width: 600px) {
     a {
