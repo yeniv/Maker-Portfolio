@@ -1,7 +1,6 @@
 footer {
   display: flex; 
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   padding: 3rem 0;
 
@@ -14,5 +13,13 @@ footer {
     margin: 3rem 0 1rem;
     font-size: 2rem;
     display: block;
+  }
+
+  @media (max-width: 600px) {
+    a {
+      display: block;
+      text-align: center;
+      padding: 0.4rem;
+    }
   }
 }

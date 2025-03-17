@@ -28,6 +28,31 @@
     background-color: hsla(0, 0%, 100%, .95);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
+
+    #about,
+    #cv {
+        display: none;
+      }
+
+    @media (max-width: 500px) {
+      margin: 0 auto;
+      justify-content: space-between;
+
+      .title {
+        display: none;
+      }
+
+      #about,
+      #cv {
+        display: block;
+      }
+    }
+
+    @media (max-width: 365px) {
+      #cv {
+        /* display: none; */
+      }
+    }
   }
 
   .hover-box {
@@ -50,11 +75,32 @@
 
     svg {
       margin-bottom: -2px;
+
+      @media (max-width: 365px) {
+        display: none;
+      }
     }
 
     &:hover {
       color: #171717;
       transition: ease-out 0.2s;
+    }
+
+    @media (max-width: 500px) {
+      padding: 0.2rem 0.2rem;
+    }
+
+    @media (max-width: 365px) {
+      padding: 0.2rem 0.1rem;
+    }
+  }
+
+  .secondary-nav {
+    @media (max-width: 500px) {
+      #about,
+      #cv {
+        display: none;
+      }
     }
   }
 
@@ -83,8 +129,5 @@
     opacity: 0;
     transition: ease-out 0.2s;
     transform: translateY(0.3rem);
-  }
-
-  @media (max-width: 768px) {
   }
 }

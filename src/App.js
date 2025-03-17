@@ -12,7 +12,6 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <p>test</p>
         <Header />
         <main className="main-content">
           <Routes>
