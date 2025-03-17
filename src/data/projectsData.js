@@ -74,7 +74,7 @@ export const projectsData = [
     fullDescription:
       <div>
         <h2>2017 Young Spikes Digital Gold 🥇</h2>
-        <img src='/images/Stitched-Together/Stitched-Together-web-gallery-1.jpg'></img>
+        <img src='/images/Stitched-Together/Stitched-Together-web-gallery-1.jpg' alt="Trisan Viney on stage at the Spikes Asian awards holding a print out of Rosie Stone on a stick"></img>
         <p><i>Rosie couldn't make the award show. So we had to improvise.</i></p>
         <p>Rosie Stone and I had 24 hours to create a digital campaign gathering 100,000 petition signatures from Thai millenials to support the rights of migrant children to receive an education — something they're sadly denied.</p>
         <p>Our sleep-deprived solution was simple, symbolic and shareable — a school shirt made from petition signatures.</p>
@@ -173,7 +173,7 @@ export const projectsData = [
           <iframe width="560" height="315" src="https://www.youtube.com/embed/hd1cX4PkG5I" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
         <h3>Radio executions - The Narrator</h3>
-        <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/329312908&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <iframe title="kfc-shut-up-and-take-my-money-radio" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/329312908&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </div>,
     youTubeVideo: '3dQPZqtOcl0',
     toolkit: ['Copywriter'],
@@ -334,7 +334,7 @@ export const projectsData = [
       <div>
         <h2>2017 Siren Awards Campaign Finalist 🏆</h2>
         <p>How can you tell if you're a bacon lover? With your ears. This KFC radio campaign tests once and for all if the new Bacon Lovers Burger is for you.</p>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/329314013&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <iframe title="kfc-smells-like" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/329314013&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </div>,
     toolkit: ['Copywriter'],
     client: 'KFC'
@@ -375,7 +375,7 @@ export const projectsData = [
           Controling the radio with your voice couldn't be easier with Amazon Alexa.
           Well, actually maybe it could be. Because there's still people out there don't get it.
         </p>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1348638667&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <iframe title="amazon-alexa-radio" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1348638667&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </div>,
     toolkit: ['Copywriter'],
     client: 'Amazon'
@@ -391,7 +391,7 @@ export const projectsData = [
     fullDescription:
       <div>
         <p>Chocolates by Tomes sells gifts of all sizes. Perfect for a world where the smallest detail makes the biggest difference in generosity.</p>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1348627768&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <iframe title="chocolate-by-tomes-radio" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1348627768&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </div>,
     toolkit: ['Creative Director', 'Copywriter', 'Voice Director', 'Casting'],
     client: 'Chocolate by Tomes'
@@ -408,7 +408,7 @@ export const projectsData = [
       <div>
         <p>Have you ever been listening to your favourite radio station... and something incredible's playing... but then you have to leave? It's a tragedy.</p>
         <p>Well, thanks to RadioApp, you no longer have to say goodbye. Because you can take your favourite station wherever you go.</p>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1348632178&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <iframe title="radioapp-radio" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1348632178&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </div>,
     toolkit: ['Copywriter'],
     client: 'RadioApp'
@@ -605,9 +605,9 @@ export const projectsData = [
           <iframe width="560" height="315" src="https://www.youtube.com/embed/hsIqROqZzxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
         <h3>Radio executions</h3>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2051541376&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2051547760&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2051546592&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <iframe title="bizcover-radio-1" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2051541376&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <iframe title="bizcover-radio-2" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2051547760&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <iframe title="bizcover-radio-3" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2051546592&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </div>,
     youTubeVideo: 'CA7AM5ZZu4A',
     toolkit: ['Creative Director', 'Copywriter'],

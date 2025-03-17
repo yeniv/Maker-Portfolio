@@ -48,6 +48,10 @@
     z-index: 1;
     transition: ease-in 0.2s;
 
+    svg {
+      margin-bottom: -2px;
+    }
+
     &:hover {
       color: #171717;
       transition: ease-out 0.2s;

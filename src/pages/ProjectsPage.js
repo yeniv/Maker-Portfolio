@@ -69,7 +69,7 @@ const ProjectsPage = () => {
     <div className={`projects-page ${category}`}>
       <Masonry
         key={category || 'all'}
-        breakpointCols={category == 'portraits' ? portraitBreakpointColumns : defaultBreakpointColumns}
+        breakpointCols={category === 'portraits' ? portraitBreakpointColumns : defaultBreakpointColumns}
         className="masonry-grid"
         columnClassName="masonry-grid-column"
       >

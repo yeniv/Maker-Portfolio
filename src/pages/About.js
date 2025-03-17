@@ -17,8 +17,8 @@ const About = () => {
             <div className="row">
               <h3>Experience</h3>
               <p><b>Portrait photographer + filmmaker</b></p> 
-              <p>Freelance, Toronto</p>
-              <p>2023 — ongoing</p>
+              <p>Freelance, Toronto + Sydney</p>
+              <p>2022 — ongoing</p>
               <br />
               <p><b>Co-Founder</b></p>
               <p>Troopl, Amsterdam</p>
@@ -30,7 +30,7 @@ const About = () => {
               <br />
               <p><b>Creative Director</b></p>
               <p>Eardrum, Sydney</p>
-              <p>2017 — 2019</p>
+              <p>2017 — ongoing</p>
               <br />
               <p><b>Copywriter</b></p>
               <p>Ogilvy, Sydney</p>
@@ -119,7 +119,7 @@ const About = () => {
           </div>
         </div>
         {/* <div className="button-container">
-          <a className='button' href="/tristan-viney-resume.pdf" download>Download resume</a>
+          <a className='button' href="/tristan-viney-resume.pdf" download>Download CV</a>
         </div> */}
       </div>
     </div>

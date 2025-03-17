@@ -12,7 +12,7 @@ const Lightbox = ({ images, startIndex, onClose }) => {
       } else if (e.key === 'ArrowRight') {
         goToNext();
       } else if (e.key === 'ArrowLeft') {
-        goToPrev();
+        goToPrev(); 
       }
     };
 
@@ -25,7 +25,7 @@ const Lightbox = ({ images, startIndex, onClose }) => {
       // Re-enable scrolling when lightbox is closed
       document.body.style.overflow = 'auto';
     };
-  }, [currentIndex, onClose]);
+  }, [currentIndex, onClose]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Navigation functions
   const goToNext = () => {
@@ -54,7 +54,7 @@ const Lightbox = ({ images, startIndex, onClose }) => {
           <div className="lightbox-image-container" onClick={handleImageClick}>
             <img
               src={images[currentIndex]}
-              alt={`Lightbox image ${currentIndex + 1} of ${images.length}`}
+              alt={`Portrait ${currentIndex + 1} of ${images.length}`}
               className="lightbox-image"
             />
           </div>

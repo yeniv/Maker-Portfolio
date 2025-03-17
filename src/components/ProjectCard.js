@@ -38,7 +38,7 @@ const ProjectCard = ({ project, onPortraitClick }) => {
     >
       {/* For portrait category, pass click to parent component */}
       {project.category === 'portraits' ? (
-        <a href="#" onClick={handlePortraitClick}>
+        <div onClick={handlePortraitClick}>
           <div className="project-image-container">
             <p className="project-title">
               {project.title} · {project.category}
@@ -49,7 +49,7 @@ const ProjectCard = ({ project, onPortraitClick }) => {
               style={{ cursor: 'zoom-in' }}
             />
           </div>
-        </a>
+        </div>
       ) : (
         /* For non-portrait categories, navigate to project detail page */
         <Link to={`/project/${project.id}`}>

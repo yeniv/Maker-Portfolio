@@ -175,7 +175,7 @@ const ProjectDetail = () => {
               <img
                 key={index}
                 src={image}
-                alt={`${project.title} gallery image ${index + 1}`}
+                alt={project.title}
                 onClick={() => openLightbox(project.mainImage ? index + 1 : index)}
                 className="lightbox-trigger"
               />
