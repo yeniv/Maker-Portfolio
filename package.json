@@ -41,7 +41,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://yeniv.github.io/Maker-Portfolio/",
+  "homepage": "https://yeniv.github.io",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
