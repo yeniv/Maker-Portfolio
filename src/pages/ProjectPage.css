@@ -89,7 +89,7 @@
 
 .project-image-gallery {
   margin-bottom: 2rem;
-  
+
   .projecct-image-gallery-masonry-grid-column {
     padding-left: 1rem;
   }
@@ -100,14 +100,10 @@
   }
 }
 
-/* .project-image-gallery.masonry-grid {
-  padding-left: 1rem;
-} */
-
-/* .project-image-gallery img {
-  width: 100%;
-  margin-bottom: 0.5rem;
-} */
+/* Lightbox trigger cursor styling */
+.lightbox-trigger {
+  cursor: zoom-in;
+}
 
 .navigation-links {}
 
