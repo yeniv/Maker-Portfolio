@@ -42,6 +42,11 @@
   overflow: hidden;
   border-radius: .4em;
   background-color: #f5f5f5;
+
+  &.portraits {
+    background-color: none;
+    cursor: zoom-in;
+  }
 }
 
 p.project-title {

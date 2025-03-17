@@ -39,14 +39,10 @@ const ProjectCard = ({ project, onPortraitClick }) => {
       {/* For portrait category, pass click to parent component */}
       {project.category === 'portraits' ? (
         <div onClick={handlePortraitClick}>
-          <div className="project-image-container">
-            <p className="project-title">
-              {project.title} · {project.category}
-            </p>
+          <div className="project-image-container portraits">
             <img
               src={project.thumbnail}
               alt={project.title || 'Portrait'}
-              style={{ cursor: 'zoom-in' }}
             />
           </div>
         </div>
