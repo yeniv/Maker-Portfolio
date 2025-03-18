@@ -14,6 +14,19 @@ const About = () => {
         </h1>
         <div className="page-grid about">
           <div className="column">
+            {/* <div className="row">
+              <h3>Skillset</h3>
+              <p>Creative director</p>
+              <p>Startup founder</p>
+              <p>Director</p>
+              <p>Copywriter</p>
+              <p>Front end developer</p>
+              <p>Back end developer</p>
+              <p>Photographer</p>
+              <p>Cinematographer</p>
+              <p>Editor</p>
+              <br />
+            </div> */}
             <div className="row">
               <h3>Experience</h3>
               <p><b>Portrait photographer + filmmaker</b></p> 

@@ -48,6 +48,12 @@
       }
     }
   }
+
+  .not-found-gif {
+    width: 100%;
+    max-width: 40rem;
+    margin-bottom: 2rem;
+  }
 }
 
 /* @media (max-width: 768px) {
