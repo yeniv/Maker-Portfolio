@@ -43,7 +43,7 @@ const About = () => {
               <br />
               <p><b>Creative Director</b></p>
               <p>Eardrum, Sydney</p>
-              <p>2017 — ongoing</p>
+              <p>2017 — 2019</p>
               <br />
               <p><b>Copywriter</b></p>
               <p>Ogilvy, Sydney</p>
