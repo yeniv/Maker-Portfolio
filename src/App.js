@@ -16,12 +16,12 @@ function App() {
         <Header />
         <main className="main-content">
           <Routes>
-            <Route path="*" element={<NotFound />} />
             <Route path="/" element={<ProjectsPage />} />
             <Route path="/projects/:category" element={<ProjectsPage />} />
             <Route path="/project/:id" element={<ProjectDetail />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />
