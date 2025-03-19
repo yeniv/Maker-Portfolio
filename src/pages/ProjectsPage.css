@@ -1,6 +1,7 @@
 .projects-page {
-  max-width: 1150px;
+  /* max-width: 1150px; */
   margin: 0 auto;
+  padding: 0 2rem;
 }
   
 .masonry-grid {
@@ -19,6 +20,6 @@
 
 @media (max-width: 768px) {
   .projects-page {
-    padding: 1rem;
+    padding: 0 1rem;
   }
 }
