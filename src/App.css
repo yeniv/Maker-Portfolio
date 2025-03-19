@@ -1,4 +1,3 @@
-Global Reset
 * {
   box-sizing: border-box;
   margin: 0;
@@ -24,6 +23,10 @@ body {
   padding: 1rem;
   max-width: 1200px;
   margin: 0 auto;
+
+@media (max-width: 500px) {
+    padding: 0rem;
+  }
 }
 
 .main-content {
@@ -70,7 +73,12 @@ h3 {
   margin-bottom: 0.4rem;
 }
 
-p {
+ul {
+  padding-inline-start: revert;
+  margin-bottom: 1rem;
+}
+
+p, li {
   font-size: 1rem;
   line-height: 1.5rem;
 

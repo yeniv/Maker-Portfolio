@@ -88,8 +88,6 @@ const Header = () => {
             {category.label}
           </Link>
         ))}
-          <Link id="about" to="/about" className={location.pathname === '/about' ? 'active' : ''}>About</Link>
-          { downloadCVLink() }
       </nav>
       <nav className={`secondary-nav ${hideNav ? 'hide' : ''}`}>
         <Link id="about" to="/about" className={location.pathname === '/about' ? 'active' : ''}>About</Link>

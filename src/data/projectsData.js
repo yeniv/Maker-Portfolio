@@ -6,7 +6,6 @@ export const projectsData = [
     featured: true,
     category: 'films',
     thumbnail: '/images/WAL-LE/WAL-LE-thumbnail.jpg',
-    description: 'An 11-minute documentary following a team of engineers as they build an amphibious vehicle prototype for the Canadian Armed Forces.',
     fullDescription: 
       <div>
         <p>
@@ -16,14 +15,14 @@ export const projectsData = [
           There are no ports in the Arctic, so there's no easy way to get personnel and equipment from offshore patrol vessels onto land and inland. WAL-LE solves this problem and is the missing link between Canadian forces and the Arctic terrain.
         </p>
         <p>
-          This film gives a behind-the-scenes look into the passion and skill required to assemble, test, and reconfigure an ambitious project like WAL-LE.
+          This film offers a behind-the-scenes glimpse of the passion and skill required to assemble, test, and reconfigure an ambitious project like WAL-LE.
         </p>        
     </div>,
     youTubeVideo: 'm4VZm4K49po',
     toolkit: [
       'Director',
       'Cinematographer', 
-      'Sound recordist', 
+      'Sound Recordist', 
       'Writer', 
       'Colourist', 
       'Editor' 
@@ -70,13 +69,12 @@ export const projectsData = [
     category: 'ads',
     thumbnail: '/images/Stitched-Together/Stitched-Together-thumbnail.jpg',
     mainImage: '/images/Stitched-Together/Stitched-Together-main-image.jpg',
-    description: '',
     fullDescription:
       <div>
         <h2>2017 Young Spikes Digital Gold 🥇</h2>
-        <img src='/images/Stitched-Together/Stitched-Together-web-gallery-1.jpg' alt="Trisan Viney on stage at the Spikes Asian awards holding a print out of Rosie Stone on a stick"></img>
-        <p><i>Rosie couldn't make the award show. So we had to improvise.</i></p>
-        <p>Rosie Stone and I had 24 hours to create a digital campaign gathering 100,000 petition signatures from Thai millenials to support the rights of migrant children to receive an education — something they're sadly denied.</p>
+        <img src='/images/Stitched-Together/Stitched-Together-web-gallery-1.jpg' alt="Trisan Viney on stage at the Spikes Asian awards holding a print out of Rosie Stone on a stick" />
+        <p><i>Rosie couldn't attend the award show, so we improvised.</i></p>
+        <p>Rosie Stone and I had 24 hours to create a digital campaign to collect 100,000 petition signatures from Thai millennials advocating for migrant children's right to education — something they're sadly denied.</p>
         <p>Our sleep-deprived solution was simple, symbolic and shareable — a school shirt made from petition signatures.</p>
       </div>,
     toolkit: ['Copywriter'],
@@ -102,9 +100,23 @@ export const projectsData = [
     category: 'web-apps',
     thumbnail: '/images/Troopl/Troopl-thumbnail.jpg',
     mainImage: '/images/Troopl/Troopl-main-image.jpg',
-    description: '',
     fullDescription:
       <div>
+        <h2>Helping developers get hired with a kickass portfolio 🚀</h2>
+        <p>A portfolio of projects is key to landing your first job as a developer. The problem is building one takes a long take and is — honestly — a pain in the butt.</p>
+        <p>That's where Troopl can help. My co-founder and built a portfolio platform for web developers and data scientists to get a portfolio of work online in minutes.</p>
+        <p>While living in Amsterdam, my co-founder and I launched Troopl, grew it 2.6K users, and monetised the platform with an upgradable, premium tier.</p>
+        <p>Features:</p>
+        <ul>
+          <li>Create a portfolio in minutes</li>
+          <li>Unique, sharable URL</li>
+          <li>Discover portfolios and projects by tech stack (very useful for recruiters)</li>
+          <li>Premium portfolio templates</li>
+          <li>Coding challenges</li>
+        </ul>
+        <p>As the sole developer, I coded the entire web app from scratch, employing a Ruby on Rails backend (acting as an API) and a React frontend.</p>
+        <p>We maintained constant user engagements with daily user interviews, a growing selection of evergreen coding challenges for our users to build and add to their portfolio, community events, active Slack channel, and over 2K LinkedIn followers.</p>
+        <p>But my proudest achievement was helping multiple users landed jobs with their Troopl profile.</p>
       </div>,
     toolkit: ['Startup founder', 'Ruby on Rails', 'React', 'Ruby', 'Javascript', 'PostgreSQL', 'HTML', 'CSS', 'Stripe Payments', 'Hackathon events', 'Online community'],
     imageGallery: [
@@ -129,13 +141,12 @@ export const projectsData = [
     featured: true,
     category: 'ads',
     thumbnail: '/images/Change-your-perspective/Change-your-perspective-thumbnail.jpg',
-    description: '',
     fullDescription:
       <div>
         <h2>2014 Cannes Young Lions Film Silver 🥈</h2>
-        <p>Yep — we won a lion with a crayon drawing and a GoPro.</p>
-        <p>My Art Director Carl Robertson and I had 48 hours to create a film to break the misconception that child abuse doesn't happen in first-world countries, like Australia.</p>
-        <p>Armed with a brief, a GoPro, and access to a heavily monitored iMac, we set out to capture something beautiful. Something that would make Terrence Malick weep with joy.</p>
+        <p>Yep — we won a Cannes Lion with a crayon drawing and a GoPro.</p>
+        <p>My Art Director Carl Robertson and I had 48 hours to create a film challenging the misconception that child abuse doesn't happen in first-world countries, like Australia.</p>
+        <p>Armed with a brief, a GoPro, and access to a heavily monitored iMac, we set out to create something visually stunning — something that would make Terrence Malick weep with joy.</p>
         <p>But — alas — our final idea was so simple that we filmed it in our hotel room by taping our GoPro to a lamp.</p>
         <p>Below is our winning film in the Australian Young Lions Film Competition, which earned Carl I the honour of representing Australia and duking it out against 48 teams from around the world in the South of France.</p>
         <div className="video-container">
@@ -161,7 +172,6 @@ export const projectsData = [
     featured: true,
     category: 'ads',
     thumbnail: '/images/KFC-Chip-Slider/KFC-Chip-Slider-thumbnail.jpg',
-    description: '',
     fullDescription:
       <div>
         <p>There's deals and then there's shut-up-and-take-my-money deals.</p>
@@ -186,19 +196,18 @@ export const projectsData = [
     featured: true,
     category: 'films',
     thumbnail: '/images/What-is-Engineering-Design-Lab/What-is-Engineering-Design-Lab-thumbnail.jpg',
-    description: 'An 11-minute documentary following a team of engineers as they build an amphibious vehicle prototype for the Canadian Armed Forces.',
     fullDescription:
       <div>
         <p>
-          EDL is a multidisciplinary team of engineers who specialise in electric vehicles. They can tackle any engineering problem, which has become a bit of a communication problem. Because EDL is capable of doing so much, they struggle to explain how they can best help their clients.
+          EDL is a multidisciplinary team of engineers specialising in electric vehicles. They can tackle any engineering problem, which ironically created a communication problem. Their versatility makes it difficult for them to clearly explain how they can best help clients.
         </p>
         <p>
-          I was approached to create a help the team succinctly explain what they, how they do it, and showcase some of their recent projects. The films take the audience through the team's 4-step development process, highlighting the team's capabilities, multidisciplinary skillset, and communicate how the team can help and any or all stages of the process.
+          I was approached to help the team succinctly explain who they are, what they do, and showcase their recent projects. The films guide viewers through the team's 4-step development process, highlighting their capabilities, multidisciplinary skillset, and how they can assist at any stage of the process.
         </p>
         <p>
-          I delivered 6 videos in total. One hero promotional video, a shorter cutdown edit, and an edit focusing on each stage in the development process.
+          I delivered 6 videos: one hero promotional video, a shorter cutdown, and four videos highlighting each development stage.
         </p>
-        <br></br>
+        <br />
         <div className="video-container">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/IGYiVfkCWmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
@@ -233,7 +242,6 @@ export const projectsData = [
     featured: true,
     category: 'ads',
     thumbnail: '/images/KFC-HCG/KFC-HCG-thumbnail.jpg',
-    description: '',
     fullDescription:
       <div>
         <p>The Sydney Cricket Ground holds 50,000. The Melbourne Cricket Ground holds 90,000. But the Home Cricket Ground (HCG) holds all 26 million Aussies — each with a story to tell.</p>
@@ -241,8 +249,8 @@ export const projectsData = [
         <p>The duo kicked off commentating the TV campaign before moving onto user-submitted videos from HCG's around the country.</p>
         <h3>RESULTS</h3>
         <p>
-          🎙️ 647 videos commentated<br></br>
-          👀 6.5 million views<br></br>
+          🎙️ 647 videos commentated<br />
+          👀 6.5 million views<br />
           🤑 498% ROI
         </p>
         <h3>User-submitted videos</h3>
@@ -286,11 +294,10 @@ export const projectsData = [
     category: 'web-apps',
     thumbnail: '/images/run-forrest-run/run-forrest-run-thumbnail-2.jpg',
     mainImage: '/images/run-forrest-run/run-forrest-run-main-image.jpg',
-    description: '',
     fullDescription:
       <div>
-        <h2>Tweet #runforrestrun to make Forrest Gump run another mile.</h2>
-        <a href="https://www.producthunt.com/posts/run-forrest-run?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-run&#0045;forrest&#0045;run" target="_blank" rel="noreferrer"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=159143&theme=light&period=daily&t=1742083430394" alt="Run&#0044;&#0032;Forrest&#0033;&#0032;Run&#0033; - Tweet&#0032;&#0035;runforrestrun&#0032;to&#0032;make&#0032;Forrest&#0032;Gump&#0032;run&#0032;another&#0032;mile&#0046; | Product Hunt" style={{ width: '250px', height: '54px', 'margin-bottom': '2rem' }} width="250" height="54" /></a>
+        <h2>Tweet #runforrestrun to make Forrest Gump run another mile 🏃‍♂️</h2>
+        <a href="https://www.producthunt.com/posts/run-forrest-run?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-run&#0045;forrest&#0045;run" target="_blank" rel="noreferrer"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=159143&theme=light&period=daily&t=1742083430394" alt="Run&#0044;&#0032;Forrest&#0033;&#0032;Run&#0033; - Tweet&#0032;&#0035;runforrestrun&#0032;to&#0032;make&#0032;Forrest&#0032;Gump&#0032;run&#0032;another&#0032;mile&#0046; | Product Hunt" style={{ width: '250px', height: '54px', 'marginBottom': '2rem' }} width="250" height="54" /></a>
         <p>
           In 1979, Forrest Gump started running. 3 years, 2 months, 14 days, 16 hours, and 13,089 miles later he said he was tired... and went home.
         </p><p>
@@ -298,7 +305,7 @@ export const projectsData = [
         </p><p>
           Forrest runs between the 9 known locations from the movie, from Alabama to Monument Valley, Utah.
         </p><p>
-          The GeoJSON route was calculated using the Mapbox Directions API, which generated thousands of latitude-longitude coordinates following the roads. However, the API wouldn't calculate a route this long, so I wrote a function combining several API calls.
+          The GeoJSON route was calculated using the Mapbox Directions API, generating thousands of latitude-longitude coordinates along roads. Since the API couldn't calculate a route this long, I created a custom function that combined several API calls.
         </p><p>
           A scheduled Sidekiq background task calls the Twitter API every 24-seconds (150 calls per hour limit) to find new Tweets containing #runforrestrun.
         </p><p>
@@ -306,7 +313,7 @@ export const projectsData = [
         </p><p>
           Relevant information from the Tweet is stored and the most recent 50 Tweets are displayed individually in a card. The hashtags, mentions, and links are all clickable.
         </p><p>
-          Using WebSockets, new Tweets are added to the top of the list, Forrest Gump moves, and the miles remaining counter, well, counts down — all without reloading the page.
+          Through WebSockets, the app updates in real-time: new Tweets appear at the top, Forrest moves along his route, and the miles counter decreases — all without page refreshes.
         </p><p>
           The idea picked up momentum on Twitter, was the 4th Product of the Day on Product hunt, and got a ✌️ of approval from DDH, the inventor of Ruby on Rails.
         </p>
@@ -329,7 +336,6 @@ export const projectsData = [
     featured: true,
     category: 'ads',
     thumbnail: '/images/KFC-Sounds-Like/KFC-Sounds-Like-thumbnail.jpg',
-    description: '',
     fullDescription:
       <div>
         <h2>2017 Siren Awards Campaign Finalist 🏆</h2>
@@ -348,9 +354,14 @@ export const projectsData = [
     thumbnail: '/images/camera-price-list/camera-price-list-thumbnail.jpg',
     // thumbnail: '/images/camera-price-list/camera-price-list-main-image.jpg',
     mainImage: '/images/camera-price-list/camera-price-list-main-image.jpg',
-    description: '',
     fullDescription:
       <div>
+        <h2>Find the best camera prices in a flash 📸</h2>
+        <p>Camera-lovers (like me) are always researching and buying new gear.</p>
+        <p>But when it comes time to pull the trigger, it's extremely time consuming to find the best price given fluctuations between countries, currencies, stores, and seasonal promotions.</p>
+        <p>This is why I built Camera Price List. To scratch my own itch and also help camera lovers around the world quickly and easily find the best prices on camera gear.</p>
+        <p>Camera Price List automatically scans prices across the internet daily, consolidating them into a straightforward display that shows the best available price and how each retailer compares to the market average.</p>          
+        <p>Users can refine their search by budget, brand, category, and format, empowering photographers to discover optimal prices and make purchases with greater confidence.</p>
       </div>,
     toolkit: ['Ruby', 'Ruby on Rails', 'Turbo Rails', 'CSS', 'HTML', 'PostgreSQL', 'Web scraper', 'CRON Scheduler'],
     imageGallery: [
@@ -368,29 +379,27 @@ export const projectsData = [
     featured: true,
     category: 'ads',
     thumbnail: '/images/Amazon-Alexa/Amazon-Alexa-thumbnail.jpg',
-    description: '',
     fullDescription:
       <div>
         <p>
-          Controling the radio with your voice couldn't be easier with Amazon Alexa.
-          Well, actually maybe it could be. Because there's still people out there don't get it.
+          Controlling the radio with your voice couldn't be easier with Amazon Alexa.
+          Well, actually maybe it could be. Because some people still don't get it.
         </p>
         <iframe title="amazon-alexa-radio" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1348638667&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </div>,
     toolkit: ['Copywriter'],
     client: 'Amazon'
   },
-  // CHOCOLATE BY TOMES - GIFTS FOR ANY OCCASSION
+  // CHOCOLATE BY TOMES - GIFTS FOR ANY OCCASION
   {
-    id: 'gifts-for-any-occassion',
-    title: 'Gifts for any occassion',
+    id: 'gifts-for-any-occasion',
+    title: 'Gifts for any occasion',
     featured: true,
     category: 'ads',
     thumbnail: '/images/Chocolates-by-Tomes/Chocolates-by-Tomes-thumbnail.jpg',
-    description: '',
     fullDescription:
       <div>
-        <p>Chocolates by Tomes sells gifts of all sizes. Perfect for a world where the smallest detail makes the biggest difference in generosity.</p>
+        <p>Chocolates by Tomes sells gifts of all sizes. Perfect for a world where small details make a big difference in generosity.</p>
         <iframe title="chocolate-by-tomes-radio" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1348627768&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </div>,
     toolkit: ['Creative Director', 'Copywriter', 'Voice Director', 'Casting'],
@@ -403,11 +412,10 @@ export const projectsData = [
     featured: true,
     category: 'ads',
     thumbnail: '/images/RadioApp-Breakup/RadioApp-Breakup-thumbnail.jpg',
-    description: '',
     fullDescription:
       <div>
-        <p>Have you ever been listening to your favourite radio station... and something incredible's playing... but then you have to leave? It's a tragedy.</p>
-        <p>Well, thanks to RadioApp, you no longer have to say goodbye. Because you can take your favourite station wherever you go.</p>
+        <p>Have you ever been listening to your favorite radio station, something amazing is playing... but then you have to leave? Tragic.</p>
+        <p>With RadioApp, you never have to say goodbye — you can take your favorite station wherever you go.</p>
         <iframe title="radioapp-radio" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1348632178&color=%23d2d7df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </div>,
     toolkit: ['Copywriter'],
@@ -566,14 +574,14 @@ export const projectsData = [
     // category: 'films',
     thumbnail: '/images/beepFM/beepFM-thumbnail.jpg',
     // mainImage: '/images/beepFM/beepFM-main-image.jpg',
-    description: '',
     fullDescription:
       <div>
-        <p>beepFM was an interactive audio experience where users could record and listen to anonymous voicemails. People shared secrets, memories, confessions, rants, apologies, desires, stories, dreams, ambitions, or anything else they wanted to get off their chest.</p>
-        <p>As the voicemails played over ambient music from producer <a href='http://twitch.tv/scoopinresponse' target='_blank' rel='noopener noreferrer'>Matthew Macinante</a>, the yellow sphere background lines took on new shapes and movements, visualising the audio.</p>
-        <p>[how it was built...]</p>
-        <p>[the results...]</p>
-        <p>[no longer online, head a sample of the audio...]</p>
+        <h2>The Internet's anonymous voicemail 🎙️</h2>
+        <p>beepFM was an interactive audio experience where users could record and listen to anonymous voicemails. People shared secrets, memories, confessions, rants, apologies, desires, stories, dreams, ambitions, and anything else they wanted to get off their chest.</p>
+        <p>I was truly amazed by the submissions. Both in terms of enthusiasm and vulnerability shown.</p>
+        <p>As voicemails played over ambient synth beats from producer <a href='http://twitch.tv/scoopinresponse' target='_blank' rel='noopener noreferrer'>Matthew Macinante</a>, the yellow sphere took on new shapes and movements, visualising the voicemails.</p>
+        <p>beepFM is no longer live. However, a selection of anonymous voicemails were used as part of the Earfest Audio festival — giving you a taste of what the beepFM experience was like.</p>
+        <br />
         <div className="video-container">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/fcUqHwzMj2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
@@ -594,11 +602,10 @@ export const projectsData = [
     featured: true,
     category: 'ads',
     thumbnail: '/images/Bizcover-Turn-Off/Bizcover-toenails-thumbnail.jpg',
-    description: '',
     fullDescription:
       <div>
-        <p>Business insurance isn't the sexiest thing in the world. Which is why so many small business owners put off searching for a better deal. Until we came along.</p>
-        <p>We created intentionally gross — really gross — ads to give business owners the nudge they needed to stop watching, listening, and procrastinating — and head to BizCover.com.au to get a better deal on their small business insurance.</p>
+        <p>Business insurance isn't exactly thrilling, leading many small business owners to postpone searching for better deals.</p>
+        <p>We created deliberately disgusting ads to motivate business owners to stop watching, stop procrastinating, and visit BizCover.com.au for better small business insurance deals.</p>
         <p>It worked. Possibly a little too well, given the number of complaints this campaign received. But I'd be lying if I said listening to people complain about my disgusting toenail commercial wasn't a career highlight.</p>
         <h3>Additional TVC</h3>
         <div className="video-container">
@@ -620,15 +627,14 @@ export const projectsData = [
     featured: true,
     category: 'films',
     thumbnail: '/images/Anything-Helps/Anything-Helps-thumbnail.jpg',
-    description: 'A homeless man stumbles across a suicide attempt. But instead of talking her down, he has other ideas.',
     fullDescription:
       <div>
         <p>
-          A homeless man stumbles across a suicide attempt. But instead of talking her down, he has other ideas.
+          A homeless man stumbles upon a suicide attempt. Rather than talking her down, he has something else in mind.
         </p>
         <p>
-          FESTIVAL SELECTION<br></br>
-          2019 Tropfest Australia Shortlist ("Candle")<br></br>
+          FESTIVAL SELECTION<br />
+          2019 Tropfest Australia Shortlist ("Candle")<br />
           2019 deadCentre Film Festival Official Selection
         </p>
       </div>,

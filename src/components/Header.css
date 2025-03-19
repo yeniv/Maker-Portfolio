@@ -9,6 +9,11 @@
   letter-spacing: 0.02rem;
   text-transform: lowercase;
 
+  @media (max-width: 500px) {
+    margin: 2rem 0 1rem;
+    padding: 0 1rem;
+  }
+
   .main-nav {
     display: flex;
     justify-content: space-between;
@@ -29,28 +34,17 @@
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
 
-    #about,
-    #cv {
-        display: none;
-      }
-
-    @media (max-width: 500px) {
-      margin: 0 auto;
+    @media (max-width: 400px) {
       justify-content: space-between;
 
       .title {
         display: none;
       }
-
-      #about,
-      #cv {
-        display: block;
-      }
     }
 
     @media (max-width: 365px) {
       #cv {
-        /* display: none; */
+        display: none;
       }
     }
   }
@@ -88,19 +82,7 @@
 
     @media (max-width: 500px) {
       padding: 0.2rem 0.2rem;
-    }
-
-    @media (max-width: 365px) {
-      padding: 0.2rem 0.1rem;
-    }
-  }
-
-  .secondary-nav {
-    @media (max-width: 500px) {
-      #about,
-      #cv {
-        display: none;
-      }
+      white-space: nowrap;
     }
   }
 

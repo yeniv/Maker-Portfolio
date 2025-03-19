@@ -21,6 +21,8 @@ footer {
 
 
   @media (max-width: 600px) {
+    padding: 1rem 0 3rem;
+    
     a {
       display: block;
       text-align: center;
