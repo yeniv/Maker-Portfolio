@@ -27,8 +27,8 @@ const ProjectsPage = () => {
 
   const defaultBreakpointColumns = {
     default: 3 , // 3 columns on desktop
-    768: 2,     // 2 columns on tablet
-    500: 1      // 1 column on mobile
+    950: 2,     // 2 columns on tablet
+    560: 1      // 1 column on mobile
   };
 
   const portraitBreakpointColumns = {

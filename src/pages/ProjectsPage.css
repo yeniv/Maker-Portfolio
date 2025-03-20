@@ -1,7 +1,7 @@
 .projects-page {
-  /* max-width: 1150px; */
   margin: 0 auto;
   padding: 0 2rem;
+  margin-left: -1.4rem;
 }
   
 .masonry-grid {
@@ -12,10 +12,6 @@
 .masonry-grid-column {
   padding-left: 1.4rem;
   background-clip: padding-box;
-  
-  &:first-child {
-    padding-left: 0;
-  }
 }
 
 @media (max-width: 768px) {

@@ -91,6 +91,7 @@ const Header = () => {
       </nav>
       <nav className={`secondary-nav ${hideNav ? 'hide' : ''}`}>
         <Link id="about" to="/about" className={location.pathname === '/about' ? 'active' : ''}>About</Link>
+        {/* <Link id="contact" to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link> */}
         { downloadCVLink() }
       </nav>
     </header>
